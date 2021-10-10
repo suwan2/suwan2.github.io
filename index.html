@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+    body{
+    font-family : 'Gloria Hallelujah', cursive;
+    background-color: #7134eb
+    }
+    .layer {
+    color :white;
+     font-size: 5vw;
+    position : absolute;
+    text-align: center;
+    width : 100%;
+    height : 100%;
+    top :0;
+    left :0;
+    }
+    .content {
+       border : dashed 1px white;
+        padding : 10%;
+        display : inline-block;
+        vertical-align : middle;
+        }
+        .blank {
+          background-color : red;
+          display : inline-block;
+          width : 1;
+          height : 100%;
+          vertical-align : middle;
+          }
+          #link {
+            font-size : 4vw;
+            animation-name : link;
+            animation-duration : 2s;
+            animation-iteration-count : infinite;
+            }
+            @keyframes link{
+            0% {
+                background : linear-gradient(to left, blue, red);
+                -webkit-background-clip :text;
+                color : transparent;
+                }
+              100% {
+                  background : linear-gradient(to left, blue, red);
+                -webkit-background-clip :text;
+                color : transparent;
+                  }
+
+              }
+    </style>
+</head>
+<body>
+    <div class = "layer">
+        <p class = "content"> 2021 Portfolio
+            <a href =" inst.html" id = "link">
+            <br> click me!</a>
+        </p>
+        <span class = "blank"> </span>
+
+    </div>
+</body>
+</html>

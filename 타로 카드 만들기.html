@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img { width : 20%
+             position : absolute }
+         #img1 { transform : translateX(20px); }
+         #img2{ transform : translateX(40px); }
+         #img3 { transform : translateX(60px); }
+         #img4 { transform : translateX(80px); }
+         #img5 { transform : translateX(100px); }
+         #img6 { transform : translateX(120px); }
+
+         #img1:hover { transform : translate{20px, -30px}; transition : 0.5s; }
+         #img2:hover { transform : translate{40px, -30px}; transition : 0.5s; }
+         #img3:hover { transform : translate{60px, -30px}; transition : 0.5s; }
+         #img4:hover { transform : translate{80px, -30px}; transition : 0.5s; }
+         #img5:hover { transform : translate{100px, -30px}; transition : 0.5s; }
+         #img6:hover { transform : translate{120px, -30px}; transition : 0.5s; }
+
+         #front{
+         animation-name : front;
+         animation-duration :2s;
+         animation-iteration-count : 1;
+         animation-fill mode : both;
+         animation-direction : alternate;
+         transform : translate (20px);
+         }
+
+         @keyfrmaes front {
+         100% {margin-top :200px; }
+          #front{
+         animation-name : front;
+         animation-duration :2s;
+         animation-iteration-count : 1;
+         animation-fill mode : both;
+         animation-direction : alternate;
+         transform : translate (40px);
+         }
+
+         @keyfrmaes front2 {
+         100% {margin-top :200px; }
+    </style>
+</head>
+<body>
+    <div id ="front_taro1"> </div>
+    <div id ="front_taro2"> </div>
+    <img src = "taro.png"id="img 1"/>
+    <img src = "taro.png"id="img 2 "/>
+    <img src = "taro.png"id="img 3"/>
+    <img src = "taro.png"id="img 4"/>
+    <img src = "taro.png"id="img 5"/>
+    <img src = "taro.png"id="img 6"/>
+    <div id=" front_img"> </div>
+   <script>
+       document.getElementById("img1").onclick=function{}{
+       document.getElementById ("front_img").innerHTML =
+         <img Id = "front" arc = ("front_img").innerHTML =
+         <img id= "front" src + "front_taro.png"/>
+         document.getElementById("img1")style +"display:name; "
+         <p style + "padding-top : 350px;"> 이것은 THE FOOL 카드입니다
+         };
+         document.getElementById("img1").onclick=function{}{
+       document.getElementById ("front_img").innerHTML =
+         <img Id = "front" arc = ("front_img").innerHTML =
+         <img id= "front" src + "front_taro.png"/>
+
+   </script>
+
+</body>
+</html>
